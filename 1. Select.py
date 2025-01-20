@@ -4,9 +4,10 @@
 # COMMAND ----------
 
 
+
+
 df = spark.read.csv(path= "dbfs:/databricks-datasets/bikeSharing/data-001/day.csv", header=True)
 display(df)
-df = spark.read.csv(path= "dbfs:/databricks-datasets/bikeSharing/data-001/day.csv", header=True)
 
 # COMMAND ----------
 
